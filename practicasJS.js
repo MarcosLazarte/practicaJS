@@ -1,3 +1,14 @@
+/*
+    Se realizo esta practica con fin de aceitar las consignas solicitadas
+    para entrar a una empresa.
+    Script que apunta a brindar los siguientes servicios:
+    1. Detectan cuantas veces en el array se repiten una letra que vos decidas.
+    1bis. Detectan automaticamente cuantas letras se repiten y te arroja la cantidad, ignora las letras que no se repitan ni 1 vez.
+    2. Invierte la posicion de un array dado.
+    3. Hace un swap de dos caracteres sin usar una tercera variable.
+    4. Dado un numero superior a 9, se suma los numeros que componen al numero en cuestion, valiendose de una funcion que se llama a sí misma.
+    5. Combina dos arrays dados, poniendo en segundo lugar al segundo array. 
+*/
 function cantidadCaracter (stringo , caracter){
     let cantidad = 0;
     for(let i = 0; i < stringo.length; i++){
